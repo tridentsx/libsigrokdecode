@@ -1,0 +1,15 @@
+{
+    "id": "ata_taskfile",
+    "name": "IDE/ATA-ATAPI Task-File",
+    "shortname": "ata_taskfile",
+    "longname": "IDE / ATA–ATAPI task-file control-plane",
+    "description": "Decodes PATA task-file register accesses and ATAPI PACKET CDBs (control plane only).",
+    "license": "gplv2+",
+    "tags": ["Storage", "Parallel"],
+    "inputs": ["logic"],
+    "outputs": ["ata_taskfile"],
+    "depends": [],
+    "api_version": 3,
+    "version": "0.1.0",
+    "maintainer": "Community"
+  }
